@@ -43,7 +43,7 @@ const server = app.listen(5000, async () => {
 
 const io = require("socket.io")(server,{
   pingTimeout:60000,
-  cors: { origin: "https://nem201-chat-app.vercel.app/", }
+  cors: { origin: "https://nem201-chat-app.vercel.app", }
 })
 
 
